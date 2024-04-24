@@ -1,0 +1,1816 @@
+body {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background: #d11a1f url(https://i.postimg.cc/pXT1fpYd/bg-april-tores-1.jpg) center center no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.section .container {
+    background: #910103d4;
+    background-image: none;
+    box-shadow: rgb(0 0 0 / 100%) 0 32px 62px -2px, rgb(0 0 0 / 100%) 0 30px 32px -3px;
+}
+
+.bank {
+    text-align: center;
+    width: 145px;
+    height: 74px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px margin-left: 0px;
+}
+
+#bank.section .container {
+    background: #910203;
+}
+
+.navbar-fixed-top {
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+.navbar-fixed-top .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 15px;
+}
+
+.navbar-collapse .row .col-sm-7 {
+    margin-left: 150px !important;
+}
+
+.breadcrumbs {
+    padding: 40px 0;
+}
+
+ul.newsticker>li>a {
+    color: #fff;
+    text-shadow: 0px 0px 10px #ff0;
+}
+
+.tickercontainer .masking {
+    padding: 7px;
+}
+
+.buttonagenbola {
+    border-radius: 0px 18px !important;
+}
+
+.results {
+    border-radius: 0px 23px 0px 23px !important;
+    padding: 16px;
+}
+
+.wcover {
+    width: 650px;
+    background: #000000 !important;
+    color: #efefef;
+    padding: 10px;
+    display: none;
+    box-shadow: rgb(255 51 51 / 90%) 0 6px 12px -2px, rgb(255 0 0 / 90%) 0 3px 7px -3px;
+    border-radius: 10px;
+}
+
+.slider #progressBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgb(218 65 65 / 20%);
+    z-index: 1000;
+    display: none;
+}
+
+button.btn-small,
+.btn.btn-small {
+    background: #ba1a1a !important;
+    background: -moz-linear-gradient(top, #ef9898c 0%, #baa01a 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d40505), color-stop(100%, #baa01a)) !important;
+    background: -webkit-linear-gradient(top, #ef9898c 0%, #baa01a 100%) !important;
+    background: -o-linear-gradient(top, #ef9898c 0%, #baa01a 100%) !important;
+    background: -ms-linear-gradient(top, #ef9898c 0%, #baa01a 100%) !important;
+    background: linear-gradient(to bottom, #ef9898cc 0%, #ba1a1a 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef9898c', endColorstr='#baa01a', GradientType=1) !important;
+}
+
+form .form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid #e63030;
+    border-radius: 18px 0px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.btn-menu {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #630003;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    font-size: 12px;
+    margin: 15px 0px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.btn-menu:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #fffb00, #ff0000, #fffb00, #ff0000, #fffb00, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 300%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-menu:after {
+    background: transparent;
+}
+
+.btn-menu:before {
+    opacity: 1;
+}
+
+.btn-menu:hover {
+    color: #fff;
+}
+
+.btn-menu:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #620404;
+    color: #fff;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.btn-menu a,
+.btn-menu i {
+    color: #fff;
+}
+
+a.btn-menu {
+    color: #fff;
+}
+
+
+
+.button.btn-theme,
+.btn.btn-theme {
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    font-size: 13px;
+    margin: 5px 0px;
+    padding: 8px 12px;
+    border-radius: 18px 0px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.button.btn-theme,
+.btn.btn-theme:before {
+    content: '';
+    background: linear-gradient(90deg, #ff0000, #fffb00, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 300%;
+    z-index: -1;
+    filter: blur(0px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 10s linear infinite;
+    opacity: 1;
+    transition: opacity 0.1s;
+    border-radius: 18px 0px;
+
+}
+
+.button.btn-theme,
+.btn.btn-theme:after {
+    background: transparent;
+}
+
+.button.btn-theme,
+.btn.btn-theme:hover {
+    border: 3px solid #ff0000;
+    background: linear-gradient(to bottom, #ec1d23 0%, #3d0709 100%);
+    color: white;
+    animation: glowing 10s linear infinite;
+}
+
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+
+.btn-alexis {
+    border: none;
+    outline: none;
+    color: rgb(255 255 255);
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    font-size: 13px;
+    padding: 8px 11px;
+    border-radius: 0px 18px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.btn-alexis:before {
+    content: '';
+    background: linear-gradient(277deg, #eb000b, #560000, #ff0200, #ff0200);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 300%;
+    z-index: -1;
+    filter: blur(0px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 10s linear infinite;
+    opacity: 0;
+    transition: opacity 0.1s;
+    border-radius: 0px 18px;
+
+}
+
+.btn-alexis:after {
+    background: transparent;
+}
+
+.btn-alexis:before {
+    opacity: 1;
+    border-radius: 0px 18px;
+}
+
+.btn-alexis:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.margin-top-15 {
+    margin-top: 0px !important;
+}
+
+.box-middle {
+    padding: 0;
+    border: 2px groove #dbaf4c;
+    margin: 0 5px 10px;
+    max-width: 267px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+
+.post-card3 {
+    position: relative;
+    transition: all .3s ease;
+    border-radius: 10px
+}
+
+.post-card3:hover {
+    transform: scale(1.05);
+    z-index: 10
+}
+
+.post-card3 img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto
+}
+
+.post-card3 a,
+.post-card3 a:hover {
+    text-decoration: none;
+    color: #f1f1f1
+}
+
+.post-card3 .post-overlay {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 5
+}
+
+.post-card3-link {
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    background: rgba(0, 0, 0, .5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    font-family: Helvetica, sans-serif
+}
+
+.post-card3:hover .post-card3-link {
+    opacity: 1
+}
+
+.box_rwo {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/sosmed/bg%20sosmed%20alx.png) no-repeat;
+    padding: 11px 5px 5px 5px;
+    margin: auto;
+    height: 84px;
+    width: 838px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.one_Deposit {
+    width: 23.4%;
+    display: inline-block;
+}
+
+.classisp {
+    margin: 0px 0px 10px 7px;
+}
+
+figure {
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.hover14 figure {
+    position: absolute;
+    margin-left: 28px;
+}
+
+.hover14 figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.hover14:hover figure::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+.hover14:hover .play_btn a.play-now {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #008ac6 0%, #00a3d1 50%, #0090c9 100%) repeat scroll 0 0;
+    display: block;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+.hover14 .play_btn {
+    margin: 0;
+}
+
+.scroll-top>a:hover {
+    background-color: #3c3c3c !important;
+}
+
+.scroll-top>a {
+    z-index: 99;
+    width: 45px;
+    height: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: none;
+}
+
+figure {
+    margin: 0
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.trouble {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.online {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.offline {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+}
+
+.owl-wrapper .owl-item .bank div {
+    width: 168px;
+    height: 93px;
+}
+
+.owl-wrapper .owl-item .bank .online.bca {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/BCA%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.mandiri {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/MANDIRI%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.bri {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/BRI%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.bni {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/BNI%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.danamon {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/DANAMON%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.cimb {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/CIMB%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.bii {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/MAYBANK%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.maybank {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/MAYBANK%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.permata {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/PERMATA%20BANK%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.ovo {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/OVO%20ON.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.gopay {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/GOPAY%20ON.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.ocbc {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/OCBC.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.ocbc {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/OCBC.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.bca {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/BCA%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.dana {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/DANA%20ON.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.linkaja {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/LINKAJA%20ON.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .online.bsi {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/BSI%20ON.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item:nth-child(12) .bank .online {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/ON/NEO%20ON.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.mandiri {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/MANDIRI%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.bri {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/BRI%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.bni {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/BNI%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.danamon {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/DANAMON%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.cimb {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/CIMB%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.bii {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/MAYBANK%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.permata {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/PERMATA%20OFF.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.ovo {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/OVO%20OFF.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.gopay {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/GOPAY%20OFF.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.dana {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/DANA%20OFF.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.linkaja {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/LINK%20AJA%20OFF.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .offline.bsi {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/BSI%20OFF.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item:nth-child(12) .bank .offline {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/OFF/NEO%20OFF.gif) 0px 0px no-repeat;
+}
+
+
+
+.owl-wrapper .owl-item .bank .trouble.ocbc {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/OCBC.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.bca {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/BCA%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.mandiri {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/MANDIRI%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.bri {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/BRI%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.bni {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/BNI%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.danamon {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/DAMNAMON%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.cimb {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/CIMB%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.bii {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/MAYBANK%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.maybank {
+    background: url('https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/MAYBANK%20GANGGUAN.gif') 0px 0px no-repeat;
+}
+
+
+.owl-wrapper .owl-item .bank .trouble.ovo {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/OVO%20GANGGUAN.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.gopay {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/GOPAY%20GANGGUAN.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.dana {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/DANA%20GANGGUAN.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.linkaja {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/LINKAJA%20GANGGUAN.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item .bank .trouble.bsi {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/BSI%20GANGGUAN.gif) 0px 0px no-repeat;
+}
+
+.owl-wrapper .owl-item:nth-child(12) .bank .trouble {
+    background: url(https://sgp1.digitaloceanspaces.com/alexisimage/front/BANK/TROUBLE/NEO%20GANGGUAN.gif) 0px 0px no-repeat;
+}
+
+.animatedcolor,
+.animatedcolor i {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% {
+        color: red;
+        text-shadow: 0px;
+    }
+
+    20% {
+        color: white;
+        text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #fff;
+        -webkit-text-fill-color: white;
+    }
+
+    100% {
+        color: red;
+        text-shadow: 0px;
+    }
+}
+
+@-moz-keyframes color-change {
+    0% {
+        color: red;
+        text-shadow: 0px;
+    }
+
+    20% {
+        color: white;
+        text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #fff;
+        -webkit-text-fill-color: white;
+    }
+
+    100% {
+        color: red;
+        text-shadow: 0px;
+    }
+}
+
+@-ms-keyframes color-change {
+    0% {
+        color: red;
+        text-shadow: 0px;
+    }
+
+    20% {
+        color: white;
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff;
+        -webkit-text-fill-color: white;
+    }
+
+    100% {
+        color: red;
+        text-shadow: 0px;
+    }
+}
+
+@-o-keyframes color-change {
+    0% {
+        color: red;
+        text-shadow: 0px;
+    }
+
+    20% {
+        color: white;
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff;
+        -webkit-text-fill-color: white;
+    }
+
+    100% {
+        color: red;
+        text-shadow: 0px;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+        text-shadow: 0px;
+    }
+
+    20% {
+        color: white;
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff;
+        -webkit-text-fill-color: white;
+    }
+
+    100% {
+        color: red;
+        text-shadow: 0px;
+    }
+}
+
+.blog-sidebar .nav.menu>li>a {
+    border-bottom: 1px solid red;
+    color: #ffffff;
+}
+
+.blog-sidebar .nav.menu>li>a:hover,
+a:active,
+a:focus {
+    color: #f3efef;
+    background: #750a0ad6;
+}
+
+
+.news-detail {
+    height: auto;
+}
+
+.bottomnv li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+.bottomnv li a {
+    display: block;
+    background: linear-gradient(to right, #a80000 0%, #f20f0f 50%, #8b0303 100%);
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 8px;
+    margin-top: 11px;
+}
+
+footer#footer .footer-main .widget a:hover {
+    color: #ffffff;
+}
+
+.bottomnv_active {
+    border-bottom: 1px solid #fff !important;
+    border-top: 1px solid #fff !important;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+element.style {
+    text-align: center;
+    float: left;
+    margin: 0px 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.col-lg-102 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-offset-125 {
+    margin-left: 13.33333333%;
+}
+
+.col-xs-102 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-offset-125 {
+    margin-left: 10.333333%;
+}
+
+.yellowfoot {
+    width: auto;
+    padding: 0px 0px 0px;
+}
+
+.bottomnv .blacktp {
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-right: 55px;
+
+}
+
+.blog-posts ol,
+ul {
+    color: #fff;
+    line-height: 20px;
+    padding: 0 25px;
+    font-weight: 300;
+}
+
+.item.bank {
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 350px) {
+    .bank {
+        width: 24% !important;
+        background-color: #fff0;
+        box-shadow: inset 0 -2px 0 #F00;
+        height: 30px;
+        border-radius: 6px;
+    }
+}
+
+.btn-group.with-heading.circle-navigation {
+    display: none;
+}
+
+.owl-carousel.bankscroll {
+    margin-top: -216px;
+}
+
+
+.bank img:last-child {
+    width: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(1) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/totomacau.gif") !important;
+}
+
+/*TOTOMACAO*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(2) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/sgp.gif") !important;
+}
+
+/*SINGAPORE*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(3) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/hongkong.gif") !important;
+}
+
+/*HONGKONG*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(4) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/sydney.gif") !important;
+}
+
+/*SYDNEY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(5) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/bullseye.gif") !important;
+}
+
+/*BULLEYES*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(6) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/cambodia.gif") !important;
+}
+
+/*CAMBODIA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(7) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/china.gif") !important;
+}
+
+/*CHINA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(8) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/oregon.gif") !important;
+}
+
+/*OREGON*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(9) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/taiwan.gif") !important;
+}
+
+/*TAIWAN*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(10) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/pcso.gif") !important;
+}
+
+/*PCSO*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(11) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/jakarta.gif") !important;
+}
+
+/*JAKARTA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(12) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/jepang.gif") !important;
+}
+
+/*JEPANG*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(13) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/korea.gif") !important;
+}
+
+/*KOREA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(14) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/kupang.gif") !important;
+}
+
+/*KUPANG*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(15) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/nusa%20toto.gif") !important;
+}
+
+/*NUSATOTO*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(16) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/nusa%20pools.gif") !important;
+}
+
+/*NUSA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(17) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/thailand.gif") !important;
+}
+
+/*THAILAND*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(18) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/vietnam.gif") !important;
+}
+
+/*VIETNAM*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(19) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/sgp25.gif") !important;
+}
+
+/*SINGAPORE25*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(20) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/virginia.gif") !important;
+}
+
+/*VIRGINIA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(21) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/kentucky.gif") !important;
+}
+
+/*KENTUCKY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(22) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/carolina.gif") !important;
+}
+
+/*CAROLINA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(23) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/callifornia.gif") !important;
+}
+
+/*CALIFORNIA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(24) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/missouri.gif") !important;
+}
+
+/*MISSOURI*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(25) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/indiana.gif") !important;
+}
+
+/*INDIANA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(26) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/new%20york.gif") !important;
+}
+
+/*NEW YORK*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(27) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/florida.gif") !important;
+}
+
+/*FLORIDA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(28) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/mongolia.gif") !important;
+}
+
+/*MONGOLIA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(29) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/tennessee.gif") !important;
+}
+
+/*TENNESSE*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(30) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/texas.gif") !important;
+}
+
+/*TEXAS*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(31) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/illionis.gif") !important;
+}
+
+/*ILLINOIS*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(32) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/washington.gif") !important;
+}
+
+/*WASHINGTON*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(33) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/michigan.gif") !important;
+}
+
+/*MICHIGAN*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(34) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/ohio.gif") !important;
+}
+
+/*OHIO*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(35) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/new%20jersey.gif") !important;
+}
+
+/*NEW JERSEY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(36) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/pennsylvania.gif") !important;
+}
+
+/*PENSYLVANIA*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(37) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/georgia%20mid.gif") !important;
+}
+
+/*GEORGIA MIDDAY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(38) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/georgia%20eve.gif") !important;
+}
+
+/*GEORGIA EVENING*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(39) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/georgia%20night.gif") !important;
+}
+
+/*GEORGIA NIGHT*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(40) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/maryland%20mid.gif") !important;
+}
+
+/*MARYLAND MIDDAY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(41) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/maryland%20eve.gif") !important;
+}
+
+/*MARYLAND EVENING*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(42) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/delaware%20day.gif") !important;
+}
+
+/*DELAWARE DAY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(43) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/delaware%20night.gif") !important;
+}
+
+/*DELAWARE NIGHT*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(44) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/rhode%20island%20mid.gif") !important;
+}
+
+/*RHODE ISLAND MIDDAY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(45) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/wisconsin%20mid.gif") !important;
+}
+
+/*WISCONSIN MIDDAY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(46) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/japan%20pools.gif") !important;
+}
+
+/*JAPANPOOLS*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(47) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/HK%20LIVE.gif") !important;
+}
+
+/*Hongkong*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(48) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/MUNCHEN.gif") !important;
+}
+
+/*Munchen*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(49) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/KINGKONG.gif") !important;
+}
+
+/*Kingkong*/
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(50) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/5D%20TOTOMACAU.gif") !important;
+}
+
+/*5D TOTOMACAU*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(51) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/baccarat.gif") !important;
+}
+
+/*BACCARAT*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(52) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/roulette%20(2).gif") !important;
+}
+
+/*ROULETE*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(53) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/sicbo%20ball.gif") !important;
+}
+
+/*SICBO BALL*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(54) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/billiard.gif") !important;
+}
+
+/*BILLIARD*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(55) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/dice%206.gif") !important;
+}
+
+/*DICE6*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(56) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/dragon%20tiger.gif") !important;
+}
+
+/*DRAGON TIGER*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(57) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/monopoly.gif") !important;
+}
+
+/*MONOPOLY*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(58) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/red%20white.gif") !important;
+}
+
+/*RED WHITE*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(59) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/suwit.gif") !important;
+}
+
+/*SUWIT*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(60) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/oglok.gif") !important;
+}
+
+/*OGLOK*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(61) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/48d.gif") !important;
+}
+
+/*48D*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(62) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/HEAD%20TAIL.gif") !important;
+}
+
+/*HEAD TAIL*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(63) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/IDN%204%20STAND.gif") !important;
+}
+
+/*IDN4STAND*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(64) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/FANTAN.gif") !important;
+}
+
+/*FANTAN*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(65) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/DOMINO%20LIVE.gif") !important;
+}
+
+/*DOMINO LIVE*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(66) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/12D%20THUNDER.gif") !important;
+}
+
+/*12D THUNDER*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(67) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/BINGO%20SICBO.gif") !important;
+}
+
+/*Bingo Sicbo*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(68) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/NIU%20NIU.gif") !important;
+}
+
+/*NIU NIU*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(69) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/GRAND%20PRIX.gif") !important;
+}
+
+/*Grand Prix*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(70) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/DUEL%20DICE.gif") !important;
+}
+
+/*Duel Dice*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(71) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/BINGO%20ROULETTE.gif") !important;
+}
+
+/*Bingo Rolette*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(72) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/24D.gif") !important;
+}
+
+/*24 D*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(73) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/casino/race%20ball.gif") !important;
+}
+
+/*Race Ball*/
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(74) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/pragmatic.gif") !important;
+}
+
+/*PRAGMATIC*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(75) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/habanero.gif") !important;
+}
+
+/*HABANERO*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(76) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/pg%20soft.gif") !important;
+}
+
+/*PGSOFT*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(77) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/mcro%20gaming.gif") !important;
+}
+
+/*MICROGAMING*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(78) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/Top%20trend.gif") !important;
+}
+
+/*TOPTREND*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(79) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/idn.gif") !important;
+}
+
+/*IDN*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(80) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/gmw%20slot.gif") !important;
+}
+
+/*GMW*/
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(81) {
+    content: url("https://alexisimage.sgp1.cdn.digitaloceanspaces.com/front/SLOT/nolimit%20city.gif") !important;
+}
+
+/*NOLIMIT*/
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(82) {
+    display: none
+}
+
+.article-alexistogel h1 {
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #8b0404;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.alexistogel-table td {
+    text-align: left;
+    padding: 6px 4px;
+    border: 1px solid gold;
+    background: #910203;
+    color: white;
+}
+
+
+.alexis-table {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.alexistogel-table {
+    border: 1px solid gold;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 4px;
+    max-width: 824px;
+    margin: auto;
+    width: 100%
+}
+
+table.alexistogel-table td {
+    font-size: 13px;
+    color: #ffffff;
+    padding: 5px;
+    background-color: none;
+    text-align: left;
+    border: 1px solid gold;
+    border-radius: 5px;
+    line-height: 15px;
+}
+
+table.alexistogel-table thead {
+    font-size: 15px;
+    text-align: center;
+    background: radial-gradient(circle 214px at 46.5% 54.2%, #6e0000 0, #600000 96%);
+    color: white;
+    line-height: 33px;
+}
+
+
+.animation {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.animation>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.Slot-Alexistogel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.casino-alexistogel {
+    align-self: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.daftar-slot-alexistogel {
+    margin: 7px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: shadow 2s infinite alternate;
+}
+
+.daftar-casino-alexistogel {
+    margin: 7px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: shadow 2s infinite alternate;
+}
+
+.daftar-slot-alexistogel img {
+    border-radius: 10px;
+}
+
+.daftar-slot-alexistogel:hover {
+    opacity: 0.3;
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: inset 20px -14px 20px gold;
+    }
+
+    100% {
+        box-shadow: inset 20px -20px 20px red;
+    }
+}
+
+.link-alternatif-alexistogel-terbaik {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 15px;
+    margin: 30px auto;
+}
+
+.link-alternatif11 {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    background: url(https://kilat.digital/images/2024/02/06/53727f0b7ded0255b552e6dbe00445cb.png);
+    background-size: 100%;
+    align-items: flex-end;
+    text-align: right;
+    width: 250px;
+    height: 73px;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    color: red;
+    font-weight: bold !important;
+}
+
+.link-alternatif12 {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    background: url(https://kilat.digital/images/2024/02/06/53727f0b7ded0255b552e6dbe00445cb.png);
+    background-size: 100%;
+    align-items: flex-end;
+    text-align: right;
+    width: 250px;
+    height: 73px;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    color: red;
+    font-weight: bold !important;
+}
+
+.link-alternatif13 {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    background: url(https://kilat.digital/images/2024/02/06/53727f0b7ded0255b552e6dbe00445cb.png);
+    background-size: 100%;
+    align-items: flex-end;
+    text-align: right;
+    width: 250px;
+    height: 73px;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    color: red;
+    font-weight: bold !important;
+}
+
+.alternatif-dasar {
+    display: flex;
+}
+
+.info-alternatif {
+    border-top: 1px solid gold;
+    margin-top: 4px;
+    padding-top: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(0 0 0);
+    font-family: helvetica;
+    text-shadow: 0 2px 1px rgb(255, 255, 255);
+}
+
+.alternatif-dasar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+a.link-alternatif11:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a.link-alternatif12:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a.link-alternatif13:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container-footer-bawah {
+    max-width: 700px;
+    margin: 25px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    z-index: 99999;
+}
+
+.background-image {
+    width: 100%;
+    display: block;
+    position: sticky;
+    z-index: 2;
+}
+
+.top-image {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-35%, -50%);
+    animation: marqueeAnimation 20s linear infinite;
+    z-index: 0;
+    height: 57%;
+    background: transparent;
+}
+
+@keyframes marqueeAnimation {
+    0% {
+        left: 100%;
+        /* Mulai dari tepi kanan container */
+    }
+
+    100% {
+        left: -100%;
+        /* Melewati tepi kiri container */
+    }
+}
+
+.linkalte {
+    color: black;
+    text-decoration: none;
+}
+
+.linkalte:visited {
+    color: #FFFFFF;
+}
+
+.linkalte:hover {
+    color: rgb(113, 113, 113);
+}
+
+.linkalte {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#fl_menu {
+    position: fixed;
+    top: 57px;
+    right: 0px;
+    z-index: 9999;
+    width: 180px;
+    height: 42px;
+    display: block;
+    overflow: visible;
+    height: 0.5s;
+}
+
+#fl_menu:hover {
+    height: 190px;
+}
+
+.menuaa {
+    width: 185px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.menu_item {
+    display: block;
+    background: #f647472e;
+    color: #003300;
+    border-top: 0px;
+    border-color: #d9aa0c;
+    padding: 8px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    width: 179px;
+    border-bottom: 1px #f03434 solid;
+    padding: 10px;
+}
+
+.menu_item:hover {
+    background: rgba(0, 40, 65, 0.5);
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+    #fl_menu {
+        display: none;
+    }
+}
+
+.menuaa table,
+.menuaa table tbody tr td {
+    border: 0px;
+}
+
+.social {
+    left: 0;
+    width: 0;
+    position: fixed;
+    top: 110px;
+    z-index: 9999999999;
+}
+
+.social ul {
+    padding: 0px;
+    -webkit-transform: translate(-130px, 0);
+    -moz-transform: translate(-130px, 0);
+    -ms-transform: translate(-130px, 0);
+    -o-transform: translate(-130px, 0);
+    transform: translate(-130px, 0);
+}
+
+.social ul li {
+    display: block;
+    margin: 6px;
+    margin-left: 0px;
+    background: rgba(0, 0, 0, 0.86);
+    width: 189px;
+    text-align: right;
+    padding: 4px;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    height: 53px;
+    border: groove 2px #e70a0a;
+}
+
+.social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgba(95, 95, 95, 0.7);
+}
+
+.social ul li:hover a {
+    color: #fff;
+}
+
+.social ul li:hover i {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.86);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+footer#footer {
+    background: linear-gradient(180deg, rgba(150, 1, 3, 1) 41%, rgb(6 0 0) 98%) !important;
+    border-top: 10px solid #231708;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    font-size: 13px;
+    box-shadow: rgb(0 0 0 / 100%) 0 32px 62px -2px, rgb(0 0 0 / 100%) 0 30px 32px -3px;
+}
+
+footer#footer .footer-bottom {
+    padding: 20px 0;
+    background-color: #91010300;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    vertical-align: middle;
+}
+
+.bottomnv {
+    width: auto;
+    margin-bottom: -26px;
+    text-align: center;
+}
